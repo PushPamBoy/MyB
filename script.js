@@ -4,7 +4,7 @@ onload = () => {
     document.body.classList.remove("not-loaded");
 
     const titles = ('WILL YOU BE MY GIRLFRIEND?').split('')
-    const titleElement = document.getElementById('title');
+    const titleElement = document.getElementById('title').onclick = funktion() {
     let index = 0;
 
     function appendTitle() {
